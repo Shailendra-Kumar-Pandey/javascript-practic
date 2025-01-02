@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    background: url('../image/3.jpg') center center ;
+    background-size: cover;
+}
+.timer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+.title{
+    margin-top: 10px;
+    color: white;
+    text-align: center;
+    font-size: 2.5rem;
+}
+.timer-box{
+    margin-top: 50px;
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+.timer-box div{
+    width: 250px;
+    text-align: center;
+}
+input{
+    width: 50%;
+    height: 50px; 
+    background-color: rgba(255, 255, 255, 0.9) ;
+    border-color: transparent;
+    border-radius: 5px;
+    text-align: center;
+    font-size:30px ;
+}
