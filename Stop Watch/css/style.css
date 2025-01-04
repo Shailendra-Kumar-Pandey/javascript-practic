@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Sixtyfour&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Sixtyfour",serif;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(4, 4, 48);
+    color: rgb(0, 238, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 50%;
+    height: 50%;
+    border: 2px solid rgb(149, 146, 146);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.timer{
+    font-size: 50px;
+}
+.row{
+    margin-top: 50px;
+}
+.btn{
+    padding: 10px;
+    border: none;
+    border-radius:5px ;
+    margin: 5px;
+    font-size: 30px;
+}
+.btn:active{
+    background-color: #333;
+    color: wheat;
+}
+.start{
+    background-color: rgb(56, 203, 56);
+    color: white;
+}
+.stop{
+    background-color: rgb(203, 107, 56);
+    color: white;
+}
+.reset{
+    background-color: rgb(42, 121, 211);
+    color: white;
+}
